@@ -1,8 +1,20 @@
 {
-  "name": "@figureland/toolkit",
+  "name": "@figureland/bun-typescript-template",
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    },
+    "./entry": {
+      "types": "./dist/entry.d.ts",
+      "require": "./dist/entry.js",
+      "import": "./dist/entry.js"
+    }
+  },
   "description": "",
   "scripts": {
     "build": "bun run build.ts",
