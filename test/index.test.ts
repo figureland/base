@@ -1,8 +1,9 @@
 import { describe, it, expect } from 'bun:test'
-import { example } from '../src'
+import { example, other } from '../src'
 
 describe('should', () => {
-  it('export example', () => {
+  it('export', () => {
     expect(example()).toBe('hello')
+    expect(other()).toBe('wrong')
   })
 })
