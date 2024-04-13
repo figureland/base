@@ -15,7 +15,7 @@
       "import": "./dist/entry.js"
     }
   },
-  "description": "",
+  "description": "Base template for Figure Typescript projects",
   "scripts": {
     "build": "bun run build.ts",
     "prepublishOnly": "bun run build",
