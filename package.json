@@ -41,11 +41,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/figureland/bun-typescript-template.git"
+    "url": "git+https://github.com/figureland/base.git"
   },
   "author": "Figure Systems",
   "bugs": {
-    "url": "https://github.com/figureland/bun-typescript-template"
+    "url": "https://github.com/figureland/base"
   },
-  "homepage": "https://github.com/figureland/bun-typescript-template#readme"
+  "homepage": "https://github.com/figureland/base#readme"
 }
