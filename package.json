@@ -1,5 +1,5 @@
 {
-  "name": "@figureland/template-bun-ts",
+  "name": "@figureland/bun-typescript-template",
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
