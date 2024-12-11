@@ -4,13 +4,13 @@
     "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "allowJs": true,
     "noEmit": true,
-    "outDir": "dist",
+    "outDir": "cli",
     "resolveJsonModule": true
   }
 }
